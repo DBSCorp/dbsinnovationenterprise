@@ -1,98 +1,252 @@
 <!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Follow Us</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    
-    <style>
-        body { font-family: 'Poppins', sans-serif; background-color: #2d0039; color: #ffffff; text-align: center; }
-        .title { display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; color: #ffffff; }
-        .title img { height: 50px; margin-right: 15px; border-radius: 8px; }
-        .wrapper { max-width: 900px; margin: auto; padding: 20px; background: #4b0082; box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1); border-radius: 10px; text-align: center; }
-        .social-icons { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 20px; }
-        .social-icons a { font-size: 24px; transition: transform 0.3s ease-in-out; display: flex; align-items: center; justify-content: center; text-decoration: none; color: #ffffff; padding: 10px; border-radius: 8px; background: #6a0dad; width: 150px; }
-        .social-icons a:hover { transform: scale(1.2); background: #8a2be2; }
-        .social-icons a span { margin-left: 8px; font-size: 16px; }
-        .animated-heading { font-size: 2em; font-weight: bold; animation: fadeInUp 1s ease-in-out; }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-        section { text-align: center; display: flex; flex-direction: column; align-items: center; }
-        header { background: rgba(75, 0, 130, 0.8); padding: 15px; border-radius: 10px; }
-        nav ul { list-style: none; padding: 0; }
-        nav ul li { display: inline; margin: 0 15px; }
-        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
-        nav ul li a:hover { color: #dda0dd; }
-    </style>
-</head>
-<body>
+	<head>
 
-<!-- Header -->
-<header id="header">
-    <a href="index.html" class="title">
-        <img src="nassets/DBS_logo.jpg" alt="DBS Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
-        DBS Innovation Enterprise
-    </a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="social.html">Follow Us</a></li>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+		<title>DBS Innovation Enterprise</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Who we are</a></li>
+							<li><a href="#two">What we do</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+			<!-- Intro Section -->
+<section id="intro" class="wrapper style1 fullscreen fade-up">
+    <div class="inner">
+        <!-- Company Logo -->
+        <img src="nassets/DBS_logo.jpg" alt="DBS Innovation Logo" class="logo">
+        
+        <!-- Heading and Description -->
+        <h1>DBS Innovation Enterprise</h1>
+        <p>We design, build, and sell innovative foldable stalls for businesses and entrepreneurs. Our mission is to provide high-quality, space-saving, and durable solutions.</p>
+        
+        <!-- Button -->
+        <ul class="actions">
+            <li><a href="#one" class="button scrolly">Learn more</a></li>
         </ul>
-    </nav>
-</header>
-
-<div class="wrapper">
-    <h1 class="animated-heading">Social Media Highlights</h1>
-    
-<section>
-    <h2> Instagram </h2>
-    <div class="instagram-wrapper">
-        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/YOUR_POST_ID/" data-instgrm-version="13"></blockquote>
     </div>
-    <script async src="https://www.instagram.com/embed.js"></script>
 </section>
 
-    <section>
-        <h2> Facebook </h2>
-        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61573030362302" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="xyz"></script>
-    </section>
-    
-    <section>
-        <h2> TikTok </h2>
-        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dbs_ums" data-video-id="VIDEO_ID">
-            <section>Loading TikTok video...</section>
-        </blockquote>
-        <script async src="https://www.tiktok.com/embed.js"></script>
-    </section>
+<!-- CSS Styling -->
+<style>
+    #intro {
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        text-align: center; /* Ensure text is centered */
+        height: 100vh; /* Full viewport height */
+    }
 
-    <section>
-        <h2>YouTube</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-    </section>
-    
-    <h3>Connect with Us</h3>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61573030362302" target="_blank"><span>Facebook</span></a>
-        <a href="https://www.instagram.com/dbs_ums_23" target="_blank"><span>Instagram</span></a>
-        <a href="https://www.tiktok.com/@dbs_ums" target="_blank"><span>TikTok</span></a>
-        <a href="https://youtube.com/@dbs_ums" target="_blank"><span>YouTube</span></a>
-    </div>
-</div>
+    #intro .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+    }
 
-<footer id="footer" class="wrapper alt">
-    <div class="inner">
-        <ul class="menu">
-            <li>&copy; DBS Innovation Enterprise. All rights reserved.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-    </div>
+    .logo {
+        width: 150px; /* Adjust logo size */
+        height: auto;
+        margin-bottom: 20px; /* Space between logo and heading */
+    }
+</style>
+
+
+<!-- One -->
+<section id="one" class="wrapper style2 spotlights">
+	<section>
+		<a href="#" class="image"><img src="nassets/innovation_p01.jpg" alt="" data-position="center center" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Welcome to DBS Innovation Enterprise</h2>
+				<p>We specialize in designing, building, and selling high-quality foldable stalls. Our innovative solutions are perfect for vendors looking for portable, durable, and space-efficient stalls.</p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="nassets/stall_p02.jpg" alt="" data-position="top center" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Innovative & Practical Stalls</h2>
+				<p>Our foldable stalls are designed with vendors in mind—lightweight, easy to transport, and simple to set up while maintaining durability and stability.</p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="#" class="image"><img src="nassets/convenience_p03.jpg" alt="" data-position="25% 25%" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Built for Convenience</h2>
+				<p>Our stalls are designed to be space-saving and easy to assemble, making them the perfect solution for entrepreneurs, market vendors, and event organizers.</p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn more</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper style3 fade-up">
+	<div class="inner">
+		<h2>What We Do</h2>
+		<p>DBS Innovation Enterprise focuses on designing and manufacturing foldable stalls that are portable, durable, and space-efficient—helping businesses operate efficiently.</p>
+		<div class="features">
+			<section>
+				<span class="icon solid major fa-box"></span>
+				<h3>Portable & Lightweight</h3>
+				<p>Our stalls are easy to carry and transport, making them ideal for vendors on the go.</p>
+			</section>
+			<section>
+				<span class="icon solid major fa-tools"></span>
+				<h3>Easy Assembly</h3>
+				<p>Quick and hassle-free setup ensures that vendors can focus on their business.</p>
+			</section>
+			<section>
+				<span class="icon solid major fa-paint-brush"></span>
+				<h3>Customizable Designs</h3>
+				<p>We offer different sizes and styles to match vendor needs.</p>
+			</section>
+			<section>
+				<span class="icon solid major fa-dollar-sign"></span>
+				<h3>Cost-Effective</h3>
+				<p>Affordable solutions designed to support small businesses and entrepreneurs.</p>
+			</section>
+		</div>
+		<ul class="actions" style="text-align: center;">
+			<li><a href="generic.html" class="button">Learn more</a></li>
+		</ul>
+	</div>
+</section>
+
+
+<!-- Three -->
+<section id="three" class="wrapper style1 fade-up">
+	<div class="inner">
+		<h2>Get in Touch</h2>
+		<p>Have questions or need a custom solution? Contact us today!</p>
+		<div class="split style1">
+			<section>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="5"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><a href="" class="button submit">Send Message</a></li>
+					</ul>
+				</form>
+			</section>
+			<section>
+				<ul class="contact">
+					<li>
+						<h3>Address</h3>
+					<span>
+					    Faculty of Engineering, <br>
+					    Jalan UMS, 88400 Kota Kinabalu, <br>
+					    Sabah, Malaysia.
+					</span>
+
+					</li>
+					<li>
+						<h3>Email</h3>
+						<a href="#">dbs.ums.23@gmail.com</a>
+					</li>
+					<li>
+						<h3>Phone</h3>
+						<span>+6017-833-7454</span>
+					</li>
+					<li>
+						<h3>Social</h3>
+<ul class="icons">
+    <li>
+        <a href="https://www.facebook.com/profile.php?id=61573030362302" target="_blank" class="icon brands fa-facebook-f">
+            <span class="label">Facebook</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/dbs_ums_23?igsh=cmJkNXI5cWtub2Zp" target="_blank" class="icon brands fa-instagram">
+            <span class="label">Instagram</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.tiktok.com/@dbs_ums?_t=ZS-8u3RTJuqmjX&_r=1" target="_blank" class="icon brands fa-tiktok">
+            <span class="label">TikTok</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://youtube.com/@dbs_ums?si=-jlY65Rhb36Tnf1o" target="_blank" class="icon brands fa-youtube">
+            <span class="label">YouTube</span>
+        </a>
+    </li>
+</ul>
+
+			</section>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper style1-alt">
+	<div class="inner">
+		<ul class="menu">
+			<li>&copy; DBS Innovation Enterprise. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</div>
 </footer>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/main.js"></script>
-</body>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
