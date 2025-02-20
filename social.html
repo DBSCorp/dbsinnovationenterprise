@@ -1,19 +1,28 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>About Us | DBS Innovation Enterprise</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f4f4; color: #333; }
+        .title { display: flex; align-items: center; font-size: 1.5em; font-weight: bold; }
+        .title img { height: 50px; margin-right: 15px; border-radius: 8px; }
+        .wrapper { max-width: 900px; margin: auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; }
+        .social-icons a { font-size: 24px; margin-right: 15px; transition: transform 0.3s ease-in-out; }
+        .social-icons a:hover { transform: scale(1.2); }
+        .animated-heading { text-align: center; font-size: 2em; font-weight: bold; animation: fadeInUp 1s ease-in-out; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
 </head>
-<body class="is-preload">
+<body>
 
-<!-- Header -->
 <header id="header">
     <a href="index.html" class="title">
-        <img src="nassets/DBS_logo.jpg" alt="DBS Logo" style="height: 40px; vertical-align: middle; margin-right: 10px;">
+        <img src="nassets/DBS_logo.jpg" alt="DBS Logo">
         DBS Innovation Enterprise
     </a>
     <nav>
@@ -25,63 +34,43 @@
     </nav>
 </header>
 
-<!-- Wrapper -->
-<div id="wrapper">
-    <!-- Main -->
-    <section id="main" class="wrapper">
-        <div class="inner">
-            <h1 class="major">Social Media Highlights</h1>
-            
-            <!-- Instagram Embed -->
-            <h2>Instagram</h2>
-            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dbs_ums_23?igsh=cmJkNXI5cWtub2Zp" data-instgrm-version="13"></blockquote>
-            <script async src="https://www.instagram.com/embed.js"></script>
-            
-            <!-- Facebook Embed -->
-            <h2>Facebook</h2>
-            <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61573030362302" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="xyz"></script>
-            
-            <!-- TikTok Embed -->
-            <h2>TikTok</h2>
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dbs_ums?_t=ZS-8u3RTJuqmjX&_r=1" data-video-id="YOUR_VIDEO_ID" style="max-width: 605px;min-width: 325px;" >
-                <section>Loading TikTok video...</section>
-            </blockquote>
-            <script async src="https://www.tiktok.com/embed.js"></script>
-            
-            <!-- YouTube Embed -->
-            <h2>YouTube</h2>
-            <iframe width="560" height="315" src="https://youtube.com/@dbs_ums?si=-jlY65Rhb36Tnf1o" frameborder="0" allowfullscreen></iframe>
-            
-            <!-- Social Media Links -->
-            <h3>Social</h3>
-            <ul class="icons">
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=61573030362302" target="_blank" class="icon brands fa-facebook-f">
-                        <span class="label">Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/dbs_ums_23?igsh=cmJkNXI5cWtub2Zp" target="_blank" class="icon brands fa-instagram">
-                        <span class="label">Instagram</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.tiktok.com/@dbs_ums?_t=ZS-8u3RTJuqmjX&_r=1" target="_blank" class="icon brands fa-tiktok">
-                        <span class="label">TikTok</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com/@dbs_ums?si=-jlY65Rhb36Tnf1o" target="_blank" class="icon brands fa-youtube">
-                        <span class="label">YouTube</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+<div class="wrapper">
+    <h1 class="animated-heading">Social Media Highlights</h1>
+    
+    <section>
+        <h2>Instagram</h2>
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dbs_ums_23" data-instgrm-version="13"></blockquote>
+        <script async src="https://www.instagram.com/embed.js"></script>
     </section>
+
+    <section>
+        <h2>Facebook</h2>
+        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61573030362302" data-tabs="timeline" data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="xyz"></script>
+    </section>
+    
+    <section>
+        <h2>TikTok</h2>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@dbs_ums" data-video-id="YOUR_VIDEO_ID">
+            <section>Loading TikTok video...</section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+    </section>
+
+    <section>
+        <h2>YouTube</h2>
+        <iframe width="560" height="315" src="https://youtube.com/@dbs_ums" frameborder="0" allowfullscreen></iframe>
+    </section>
+    
+    <h3>Connect with Us</h3>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61573030362302" target="_blank" class="icon brands fa-facebook-f"></a>
+        <a href="https://www.instagram.com/dbs_ums_23" target="_blank" class="icon brands fa-instagram"></a>
+        <a href="https://www.tiktok.com/@dbs_ums" target="_blank" class="icon brands fa-tiktok"></a>
+        <a href="https://youtube.com/@dbs_ums" target="_blank" class="icon brands fa-youtube"></a>
+    </div>
 </div>
 
-<!-- Footer -->
 <footer id="footer" class="wrapper alt">
     <div class="inner">
         <ul class="menu">
@@ -91,7 +80,6 @@
     </div>
 </footer>
 
-<!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
