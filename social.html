@@ -2,19 +2,21 @@
 <html>
 <head>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>About Us | DBS Innovation Enterprise</title>
+    <title>Follow Us</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
-        body { font-family: 'Poppins', sans-serif; background-color: #f4f4f4; color: #333; }
-        .title { display: flex; align-items: center; font-size: 1.5em; font-weight: bold; }
+        body { font-family: 'Poppins', sans-serif; background-color: #f4f4f4; color: #333; text-align: center; }
+        .title { display: flex; align-items: center; justify-content: center; font-size: 1.5em; font-weight: bold; }
         .title img { height: 50px; margin-right: 15px; border-radius: 8px; }
-        .wrapper { max-width: 900px; margin: auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; }
-        .social-icons a { font-size: 24px; margin-right: 15px; transition: transform 0.3s ease-in-out; }
+        .wrapper { max-width: 900px; margin: auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 10px; text-align: center; }
+        .social-icons { display: flex; justify-content: center; gap: 15px; }
+        .social-icons a { font-size: 24px; transition: transform 0.3s ease-in-out; display: flex; align-items: center; }
         .social-icons a:hover { transform: scale(1.2); }
-        .animated-heading { text-align: center; font-size: 2em; font-weight: bold; animation: fadeInUp 1s ease-in-out; }
+        .social-icons a span { margin-left: 8px; font-size: 16px; }
+        .animated-heading { font-size: 2em; font-weight: bold; animation: fadeInUp 1s ease-in-out; }
         @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
@@ -23,15 +25,8 @@
 <header id="header">
     <a href="index.html" class="title">
         <img src="nassets/DBS_logo.jpg" alt="DBS Logo">
-        DBS Innovation Enterprise
+        <span>DBS Innovation Enterprise</span>
     </a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 </header>
 
 <div class="wrapper">
@@ -64,10 +59,10 @@
     
     <h3>Connect with Us</h3>
     <div class="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61573030362302" target="_blank" class="icon brands fa-facebook-f"></a>
-        <a href="https://www.instagram.com/dbs_ums_23" target="_blank" class="icon brands fa-instagram"></a>
-        <a href="https://www.tiktok.com/@dbs_ums" target="_blank" class="icon brands fa-tiktok"></a>
-        <a href="https://youtube.com/@dbs_ums" target="_blank" class="icon brands fa-youtube"></a>
+        <a href="https://www.facebook.com/profile.php?id=61573030362302" target="_blank" class="icon brands fa-facebook-f"><span>Facebook</span></a>
+        <a href="https://www.instagram.com/dbs_ums_23" target="_blank" class="icon brands fa-instagram"><span>Instagram</span></a>
+        <a href="https://www.tiktok.com/@dbs_ums" target="_blank" class="icon brands fa-tiktok"><span>TikTok</span></a>
+        <a href="https://youtube.com/@dbs_ums" target="_blank" class="icon brands fa-youtube"><span>YouTube</span></a>
     </div>
 </div>
 
