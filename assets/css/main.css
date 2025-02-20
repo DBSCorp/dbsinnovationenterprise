@@ -3907,3 +3907,11 @@ input, select, textarea {
 			}
 
 		}
+
+.logo {
+    border-radius: 10px; /* Rounded corners */
+    height: 50px; /* Adjust height */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with text */
+    margin-right: 10px; /* Space between logo and text */
+}
